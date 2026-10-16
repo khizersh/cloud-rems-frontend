@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Arial,sans-serif">
+<rect width="1280" height="800" fill="#f1f5f9"/>
+<rect width="220" height="800" fill="#0b1f3a"/>
+<rect x="24" y="24" width="32" height="32" rx="8" fill="#2f6fed"/><rect x="68" y="34" width="100" height="12" rx="6" fill="#fff" opacity=".9"/>
+<rect x="16" y="384" width="188" height="38" rx="8" fill="#14b8a6" opacity=".35"/>
+<g fill="#fff" opacity=".16"><rect x="24" y="106" width="140" height="14" rx="7"/><rect x="24" y="150" width="120" height="14" rx="7"/><rect x="24" y="194" width="150" height="14" rx="7"/><rect x="24" y="238" width="110" height="14" rx="7"/><rect x="24" y="282" width="130" height="14" rx="7"/><rect x="24" y="326" width="120" height="14" rx="7"/></g>
+<rect x="220" width="1060" height="64" fill="#fff"/><text x="252" y="40" font-size="20" font-weight="700" fill="#0b1f3a">Customer Ledger</text>
+<rect x="252" y="88" width="994" height="100" rx="12" fill="#fff"/>
+<circle cx="304" cy="138" r="28" fill="#cbd5e1"/><rect x="354" y="116" width="200" height="16" rx="8" fill="#0b1f3a" opacity=".8"/><rect x="354" y="146" width="150" height="12" rx="6" fill="#cbd5e1"/>
+<rect x="820" y="112" width="120" height="52" rx="8" fill="#e2e8f0"/><rect x="960" y="112" width="120" height="52" rx="8" fill="#e2e8f0"/><rect x="1100" y="112" width="120" height="52" rx="8" fill="#14b8a6" opacity=".8"/>
+<rect x="252" y="208" width="994" height="536" rx="12" fill="#fff"/>
+<rect x="252" y="208" width="994" height="44" rx="12" fill="#e2e8f0"/>
+<g fill="#cbd5e1"><rect x="280" y="282" width="80" height="14" rx="7"/><rect x="280" y="334" width="80" height="14" rx="7"/><rect x="280" y="386" width="80" height="14" rx="7"/><rect x="280" y="438" width="80" height="14" rx="7"/><rect x="280" y="490" width="80" height="14" rx="7"/><rect x="280" y="542" width="80" height="14" rx="7"/><rect x="280" y="594" width="80" height="14" rx="7"/><rect x="280" y="646" width="80" height="14" rx="7"/></g>
+<g fill="#cbd5e1"><rect x="440" y="282" width="260" height="14" rx="7"/><rect x="440" y="334" width="220" height="14" rx="7"/><rect x="440" y="386" width="240" height="14" rx="7"/><rect x="440" y="438" width="200" height="14" rx="7"/><rect x="440" y="490" width="260" height="14" rx="7"/><rect x="440" y="542" width="230" height="14" rx="7"/><rect x="440" y="594" width="250" height="14" rx="7"/><rect x="440" y="646" width="210" height="14" rx="7"/></g>
+<g fill="#2f6fed" opacity=".7"><rect x="780" y="282" width="100" height="14" rx="7"/><rect x="780" y="438" width="100" height="14" rx="7"/><rect x="780" y="594" width="100" height="14" rx="7"/></g>
+<g fill="#22c55e" opacity=".7"><rect x="920" y="334" width="100" height="14" rx="7"/><rect x="920" y="386" width="100" height="14" rx="7"/><rect x="920" y="490" width="100" height="14" rx="7"/><rect x="920" y="542" width="100" height="14" rx="7"/><rect x="920" y="646" width="100" height="14" rx="7"/></g>
+<g fill="#0b1f3a" opacity=".6"><rect x="1080" y="282" width="120" height="14" rx="7"/><rect x="1080" y="334" width="110" height="14" rx="7"/><rect x="1080" y="386" width="100" height="14" rx="7"/><rect x="1080" y="438" width="120" height="14" rx="7"/><rect x="1080" y="490" width="100" height="14" rx="7"/><rect x="1080" y="542" width="90" height="14" rx="7"/><rect x="1080" y="594" width="110" height="14" rx="7"/><rect x="1080" y="646" width="80" height="14" rx="7"/></g>
+<text x="1248" y="782" text-anchor="end" font-size="14" fill="#64748b">Placeholder preview</text>
+</svg>

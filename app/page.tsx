@@ -1,69 +1,90 @@
-import Image from "next/image";
+import { ButtonLink } from "@/components/ButtonLink";
+import { CtaBand } from "@/components/CtaBand";
+import { Hero } from "@/components/Hero";
+import { SoftwareApplicationJsonLd } from "@/components/JsonLd";
+import { ProductTourGallery } from "@/components/ProductTourGallery";
+import { Section, SectionHeading } from "@/components/Section";
+import { FeatureGrid, HowItWorks, SolutionGrid } from "@/components/Sections";
+import { tourScreens } from "@/lib/content";
+import { pageMetadata } from "@/lib/seo";
 
-export default function Home() {
+export const metadata = pageMetadata({
+  title: "CloudREMS | Cloud-Based Real Estate ERP",
+  description:
+    "Manage property inventory, customers, bookings, installments, recovery, construction, and double-entry accounting with CloudREMS, a complete cloud-based Real Estate ERP.",
+  path: "/",
+  absoluteTitle: true,
+});
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      <Hero />
+
+      <Section tone="muted" labelledBy="features-heading">
+        <SectionHeading
+          id="features-heading"
+          eyebrow="Features"
+          title="Everything your real estate business runs on"
+          description="From property inventory to double-entry accounting, CloudREMS connects sales, collections, construction, and finance in one platform."
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+        <div className="mt-12">
+          <FeatureGrid />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="mt-10 text-center">
+          <ButtonLink href="/features" variant="outline">
+            Explore all features
+          </ButtonLink>
         </div>
-      </main>
-    </div>
+      </Section>
+
+      <Section tone="dark" labelledBy="how-heading">
+        <SectionHeading
+          id="how-heading"
+          eyebrow="How It Works"
+          title="From inventory to financial reports in seven steps"
+          description="CloudREMS follows the way real estate businesses actually operate."
+          tone="dark"
+        />
+        <div className="mt-12">
+          <HowItWorks />
+        </div>
+      </Section>
+
+      <Section labelledBy="solutions-heading">
+        <SectionHeading
+          id="solutions-heading"
+          eyebrow="Solutions"
+          title="Built for the teams who run real estate"
+          description="Whether you develop, build, manage, collect, or account, CloudREMS gives each team the tools it needs."
+        />
+        <div className="mt-12">
+          <SolutionGrid />
+        </div>
+        <div className="mt-10 text-center">
+          <ButtonLink href="/solutions" variant="outline">
+            See all solutions
+          </ButtonLink>
+        </div>
+      </Section>
+
+      <Section tone="muted" labelledBy="tour-heading">
+        <SectionHeading
+          id="tour-heading"
+          eyebrow="Product Tour"
+          title="A look inside CloudREMS"
+          description="Select any preview to enlarge it. Placeholder images will be replaced with actual portal screenshots."
+        />
+        <div className="mt-12">
+          <ProductTourGallery screens={tourScreens.slice(0, 6)} />
+        </div>
+        <div className="mt-10 text-center">
+          <ButtonLink href="/product-tour">Open the full product tour</ButtonLink>
+        </div>
+      </Section>
+
+      <CtaBand />
+      <SoftwareApplicationJsonLd />
+    </>
   );
 }

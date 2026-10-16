@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Arial,sans-serif">
+<rect width="1280" height="800" fill="#f1f5f9"/>
+<rect width="220" height="800" fill="#0b1f3a"/>
+<rect x="24" y="24" width="32" height="32" rx="8" fill="#2f6fed"/><rect x="68" y="34" width="100" height="12" rx="6" fill="#fff" opacity=".9"/>
+<rect x="16" y="432" width="188" height="38" rx="8" fill="#14b8a6" opacity=".35"/>
+<g fill="#fff" opacity=".16"><rect x="24" y="106" width="140" height="14" rx="7"/><rect x="24" y="150" width="120" height="14" rx="7"/><rect x="24" y="194" width="150" height="14" rx="7"/><rect x="24" y="238" width="110" height="14" rx="7"/><rect x="24" y="282" width="130" height="14" rx="7"/><rect x="24" y="326" width="120" height="14" rx="7"/><rect x="24" y="370" width="140" height="14" rx="7"/></g>
+<rect x="220" width="1060" height="64" fill="#fff"/><text x="252" y="40" font-size="20" font-weight="700" fill="#0b1f3a">Construction Management</text>
+<g fill="#fff"><rect x="252" y="88" width="320" height="100" rx="12"/><rect x="594" y="88" width="320" height="100" rx="12"/><rect x="936" y="88" width="310" height="100" rx="12"/></g>
+<g fill="#cbd5e1"><rect x="276" y="112" width="120" height="10" rx="5"/><rect x="618" y="112" width="120" height="10" rx="5"/><rect x="960" y="112" width="120" height="10" rx="5"/></g>
+<rect x="276" y="140" width="150" height="26" rx="6" fill="#2f6fed"/><rect x="618" y="140" width="150" height="26" rx="6" fill="#14b8a6"/><rect x="960" y="140" width="150" height="26" rx="6" fill="#22c55e"/>
+<rect x="252" y="208" width="994" height="356" rx="12" fill="#fff"/>
+<g fill="#e2e8f0"><rect x="276" y="236" width="150" height="16" rx="8"/><rect x="276" y="288" width="150" height="16" rx="8"/><rect x="276" y="340" width="150" height="16" rx="8"/><rect x="276" y="392" width="150" height="16" rx="8"/><rect x="276" y="444" width="150" height="16" rx="8"/><rect x="276" y="496" width="150" height="16" rx="8"/></g>
+<g fill="#f1f5f9"><rect x="460" y="232" width="760" height="24" rx="12"/><rect x="460" y="284" width="760" height="24" rx="12"/><rect x="460" y="336" width="760" height="24" rx="12"/><rect x="460" y="388" width="760" height="24" rx="12"/><rect x="460" y="440" width="760" height="24" rx="12"/><rect x="460" y="492" width="760" height="24" rx="12"/></g>
+<rect x="460" y="232" width="300" height="24" rx="12" fill="#22c55e"/><rect x="560" y="284" width="340" height="24" rx="12" fill="#22c55e"/><rect x="700" y="336" width="320" height="24" rx="12" fill="#2f6fed"/><rect x="820" y="388" width="300" height="24" rx="12" fill="#2f6fed"/><rect x="900" y="440" width="260" height="24" rx="12" fill="#14b8a6"/><rect x="980" y="492" width="220" height="24" rx="12" fill="#14b8a6"/>
+<rect x="252" y="584" width="994" height="160" rx="12" fill="#fff"/>
+<g fill="#e2e8f0"><rect x="276" y="614" width="946" height="22" rx="6"/><rect x="276" y="652" width="946" height="18" rx="6"/><rect x="276" y="684" width="946" height="18" rx="6"/></g>
+<text x="1248" y="782" text-anchor="end" font-size="14" fill="#64748b">Placeholder preview</text>
+</svg>

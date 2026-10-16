@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Arial,sans-serif">
+<rect width="1280" height="800" fill="#f1f5f9"/>
+<rect width="220" height="800" fill="#0b1f3a"/>
+<rect x="24" y="24" width="32" height="32" rx="8" fill="#2f6fed"/><rect x="68" y="34" width="100" height="12" rx="6" fill="#fff" opacity=".9"/>
+<rect x="16" y="528" width="188" height="38" rx="8" fill="#14b8a6" opacity=".35"/>
+<g fill="#fff" opacity=".16"><rect x="24" y="106" width="140" height="14" rx="7"/><rect x="24" y="150" width="120" height="14" rx="7"/><rect x="24" y="194" width="150" height="14" rx="7"/><rect x="24" y="238" width="110" height="14" rx="7"/><rect x="24" y="282" width="130" height="14" rx="7"/><rect x="24" y="326" width="120" height="14" rx="7"/><rect x="24" y="370" width="140" height="14" rx="7"/><rect x="24" y="414" width="110" height="14" rx="7"/><rect x="24" y="458" width="130" height="14" rx="7"/></g>
+<rect x="220" width="1060" height="64" fill="#fff"/><text x="252" y="40" font-size="20" font-weight="700" fill="#0b1f3a">Financial Reports</text>
+<rect x="252" y="88" width="300" height="656" rx="12" fill="#fff"/>
+<g fill="#e2e8f0"><rect x="276" y="116" width="252" height="40" rx="8"/><rect x="276" y="172" width="252" height="40" rx="8"/><rect x="276" y="228" width="252" height="40" rx="8"/><rect x="276" y="284" width="252" height="40" rx="8"/><rect x="276" y="340" width="252" height="40" rx="8"/></g>
+<rect x="276" y="116" width="252" height="40" rx="8" fill="#2f6fed" opacity=".2"/>
+<rect x="574" y="88" width="672" height="656" rx="12" fill="#fff"/>
+<rect x="602" y="116" width="220" height="16" rx="8" fill="#0b1f3a" opacity=".8"/><rect x="1090" y="112" width="130" height="28" rx="8" fill="#2f6fed"/>
+<rect x="602" y="168" width="616" height="40" rx="8" fill="#e2e8f0"/>
+<g fill="#f1f5f9"><rect x="602" y="236" width="616" height="2"/><rect x="602" y="288" width="616" height="2"/><rect x="602" y="340" width="616" height="2"/><rect x="602" y="392" width="616" height="2"/><rect x="602" y="444" width="616" height="2"/><rect x="602" y="496" width="616" height="2"/><rect x="602" y="548" width="616" height="2"/></g>
+<g fill="#cbd5e1"><rect x="602" y="256" width="200" height="14" rx="7"/><rect x="602" y="308" width="180" height="14" rx="7"/><rect x="602" y="360" width="220" height="14" rx="7"/><rect x="602" y="412" width="190" height="14" rx="7"/><rect x="602" y="464" width="210" height="14" rx="7"/><rect x="602" y="516" width="170" height="14" rx="7"/></g>
+<g fill="#0b1f3a" opacity=".6"><rect x="940" y="256" width="110" height="14" rx="7"/><rect x="940" y="308" width="110" height="14" rx="7"/><rect x="940" y="360" width="110" height="14" rx="7"/><rect x="940" y="412" width="110" height="14" rx="7"/><rect x="940" y="464" width="110" height="14" rx="7"/><rect x="940" y="516" width="110" height="14" rx="7"/></g>
+<g fill="#0b1f3a" opacity=".6"><rect x="1090" y="256" width="110" height="14" rx="7"/><rect x="1090" y="308" width="110" height="14" rx="7"/><rect x="1090" y="360" width="110" height="14" rx="7"/><rect x="1090" y="412" width="110" height="14" rx="7"/><rect x="1090" y="464" width="110" height="14" rx="7"/><rect x="1090" y="516" width="110" height="14" rx="7"/></g>
+<rect x="602" y="590" width="616" height="2" fill="#0b1f3a"/><rect x="940" y="612" width="110" height="18" rx="9" fill="#14b8a6"/><rect x="1090" y="612" width="110" height="18" rx="9" fill="#14b8a6"/>
+<text x="1248" y="782" text-anchor="end" font-size="14" fill="#64748b">Placeholder preview</text>
+</svg>

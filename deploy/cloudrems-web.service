@@ -1,0 +1,21 @@
+[Unit]
+Description=CloudREMS public website (Next.js)
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/www.cloudrems.com
+EnvironmentFile=-/var/www/www.cloudrems.com/.env.production
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=HOSTNAME=127.0.0.1
+ExecStart=/usr/bin/npm run start
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

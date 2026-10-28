@@ -58,6 +58,13 @@ export const features: Feature[] = [
     category: "Collections and Recovery",
   },
   {
+    title: "Customer Portal",
+    description:
+      "When a client books a unit, a portal account is created automatically and login credentials are emailed. Customers can sign in to monitor installments, view the remaining amount, and access their reports.",
+    icon: "users",
+    category: "Collections and Recovery",
+  },
+  {
     title: "Double-Entry Accounting",
     description:
       "Maintain integrated debit and credit entries for property bookings, collections, expenses, liabilities, income, and adjustments.",
@@ -129,6 +136,10 @@ export const processSteps = [
   {
     title: "Collect payments and issue receipts",
     description: "Record receipts and allocate each payment to the right installment.",
+  },
+  {
+    title: "Share customer portal access",
+    description: "Customers receive login credentials by email to track installments, balances, and reports.",
   },
   {
     title: "Track construction and operational expenses",
@@ -234,7 +245,7 @@ const tour = (
   title,
   description,
   alt: `Placeholder preview of the CloudREMS ${altSubject} screen. Replace with an actual portal screenshot.`,
-  src: `/screenshots/${slug}.svg`,
+  src: `/screenshots/${slug}.png`,
 });
 
 export const tourScreens: TourScreen[] = [
